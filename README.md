@@ -32,7 +32,7 @@ It looks like the following:
 
 ## Why use this service?
 
-The short answer is that it would take a long time to painstakingly design an image for every single blog post and every single documentation page. And we don't want the exact same image for every blog post because that wouldn't make the article stand out when it was shared to Twitter. 
+The short answer is that it would take a long time to painstakingly design an image for every single blog post and every single documentation page. And we don't want the exact same image for every blog post because that wouldn't make the article stand out when it was shared to Twitter.
 
 That's where `og-image.vercel.app` comes in. We can simply pass the title of our blog post to our generator service and it will generate the image for us on the fly!
 
@@ -40,12 +40,12 @@ It looks like the following:
 
 ```html
 <head>
-  <title>Hello World</title>
-  <meta property="og:image" content="https://og-image.vercel.app/Hello%20World.png" />
+  <title>こんにちわ世界</title>
+  <meta property="og:image" content="https://og-image-qqmw83jkp-ksss.vercel.app/%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%82%8F%E4%B8%96%E7%95%8C.png" />
 </head>
 ```
 
-Now try changing the text `Hello%20World` to the title of your choosing and watch the magic happen ✨
+Now try changing the text `%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%82%8F%E4%B8%96%E7%95%8C` to the title of your choosing and watch the magic happen ✨
 
 ## Deploy your own
 
